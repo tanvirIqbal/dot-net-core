@@ -6,19 +6,19 @@ My first .Net Core app.
 
 ### Check fot dot net
 
-dotnet --version
+dotnet --version  
 dotnet --info
 
 ### Create a console application
 
-dotnet new console -o CsharpHelloWorld
-cd CsharpHelloWorld
-dotnet run
+dotnet new console -o CsharpHelloWorld  
+cd CsharpHelloWorld  
+dotnet run  
 
 ### Create an ASP.NET Core project
 
-dotnet new mvc --auth Individual -o AspNetCoreTodo
-cd AspNetCoreTodo
-dotnet run
-Now listening on: <http://localhost:5000>
-Application started. Press Ctrl+C to shut down.
+dotnet new mvc --auth Individual -o AspNetCoreTodo  
+cd AspNetCoreTodo  
+dotnet run  
+Now listening on: <http://localhost:5000>  
+Application started. Press Ctrl+C to shut down.  
