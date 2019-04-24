@@ -34,3 +34,4 @@ G:\Tutorials\Dot Net Core\Projects\dot-net-core\AspNetCoreTodo\obj\Debug\netcore
 G:\Tutorials\Dot Net Core\Projects\dot-net-core\AspNetCoreTodo\obj\Debug\netcoreapp2.1\AspNetCoreTodo.dll
 G:\Tutorials\Dot Net Core\Projects\dot-net-core\AspNetCoreTodo\obj\Debug\netcoreapp2.1\AspNetCoreTodo.pdb
 G:\Tutorials\Dot Net Core\Projects\dot-net-core\AspNetCoreTodo\obj\Debug\netcoreapp2.1\AspNetCoreTodo.csproj.CopyComplete
+G:\Tutorials\Dot Net Core\Projects\dot-net-core\AspNetCoreTodo\obj\Debug\netcoreapp2.1\Razor\Views\TODO\Index.g.cshtml.cs
