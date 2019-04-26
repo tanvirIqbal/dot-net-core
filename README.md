@@ -15,6 +15,8 @@ dotnet new console -o CsharpHelloWorld
 cd CsharpHelloWorld  
 dotnet run  
 
+dotnet add package Humanizer  
+
 ### Create an ASP.NET Core project
 
 dotnet new mvc --auth Individual -o AspNetCoreTodo  
