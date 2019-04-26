@@ -17,6 +17,13 @@ dotnet run
 
 dotnet add package Humanizer  
 
+dotnet ef migrations add AddItems  
+dotnet ef migrations list  
+dotnet ef database update  
+
+dotnet ef database update NameOfTheMigrationYouWantToRollBack  
+dotnet ef database drop  
+
 ### Create an ASP.NET Core project
 
 dotnet new mvc --auth Individual -o AspNetCoreTodo  
