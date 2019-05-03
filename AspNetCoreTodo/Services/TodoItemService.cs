@@ -22,6 +22,11 @@ namespace AspNetCoreTodo.Services
                 .ToArrayAsync();
         }
 
+        public async Task<TodoItem[]> GetCompletedItemsAsync()
+        {
+            return await _context.Items.ToArrayAsync();
+        }
+
         public async Task<bool> AddItemAsync(TodoItem newItem)
         {
             newItem.Id = Guid.NewGuid();
