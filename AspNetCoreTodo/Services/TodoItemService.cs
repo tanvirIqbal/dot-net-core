@@ -31,7 +31,11 @@ namespace AspNetCoreTodo.Services
         {
             newItem.Id = Guid.NewGuid();
             newItem.IsDone = false;
-            newItem.DueAt = DateTimeOffset.Now.AddDays(3);
+            if (newItem.DueAt == null)
+            {
+                newItem.DueAt = DateTimeOffset.Now.AddDays(3);
+            }
+            
             _context.Items.Add(newItem);
             
             var saveResult = await _context.SaveChangesAsync();
