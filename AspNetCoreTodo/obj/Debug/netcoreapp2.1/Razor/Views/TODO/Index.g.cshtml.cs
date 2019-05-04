@@ -96,7 +96,7 @@ using Humanizer;
             WriteLiteral("                <tr class=\"done\">\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(593, 233, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf46980edcac45bb81f46b10556ef700", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cdfc7a99b3664b249d354402b4a83d78", async() => {
                 BeginContext(635, 144, true);
                 WriteLiteral("\r\n                        <input type=\"checkbox\" class=\"done-checkbox\" disabled checked>\r\n                        <input type=\"hidden\" name=\"id\"");
                 EndContext();
@@ -162,7 +162,7 @@ WriteAttributeValue("", 787, item.Id, 787, 8, false);
             WriteLiteral("                <tr>\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(1069, 216, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2ee60218be484173a97ea2b7a470dfe1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d5587663010847aeb0d03bb537f660c1", async() => {
                 BeginContext(1111, 127, true);
                 WriteLiteral("\r\n                        <input type=\"checkbox\" class=\"done-checkbox\">\r\n                        <input type=\"hidden\" name=\"id\"");
                 EndContext();
